@@ -4,7 +4,7 @@ var seconds = 0;
 var face = 0;
 
 var s = Snap.select('#svg');
-Snap.load("../assets/watch-red.svg", function (f) {
+Snap.load("/svg-watch/assets/watch-red.svg", function (f) {
 	face = f.select('#face');
 	s.append(face);
 	hours = f.select('#hours');
