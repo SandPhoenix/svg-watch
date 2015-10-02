@@ -3,11 +3,8 @@ var minutes = 0;
 var seconds = 0;
 var face = 0;
 
-document.getElementById('watch-container').width = "100%";
-document.getElementById('watch-container').width = "100%";
-
 var s = Snap.select('#svg');
-Snap.load("/assets/watch-red.svg", function (f) {
+Snap.load("../assets/watch-red.svg", function (f) {
 	face = f.select('#face');
 	s.append(face);
 	hours = f.select('#hours');
